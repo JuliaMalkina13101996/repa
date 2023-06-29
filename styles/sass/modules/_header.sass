@@ -1,0 +1,58 @@
+@import "./_variables"
+
+*
+    box-sizing: border-box
+
+.logo
+    cursor: pointer
+
+.container
+    width: 1200px
+    max-width: 1200px
+    display: flex
+    justify-content: center
+
+.header
+    width: 100%
+    max-width: 100%
+    height: 72px
+    display: flex
+    justify-content: center
+    background: #FFFFFF
+    border-bottom: 1px solid #D4D7E6
+
+    &-wrapper
+        width: 100%
+        max-width: 100%
+        display: flex
+        align-items: center
+        justify-content: space-between
+
+    &-menu
+        display: flex
+        gap: 50px
+
+        &__btn
+            width: 48px
+            height: 48px
+            border-radius: 50%
+            display: flex
+            align-items: center
+            justify-content: center
+            box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.08)
+            cursor: pointer
+
+        &__item
+            cursor: pointer
+            display: flex
+            gap: 8px
+            align-items: center
+
+            &__text
+                font-style: normal
+                font-weight: 700
+                font-size: 16px
+                line-height: 20px
+                display: flex
+                align-items: center
+                color: $color-gray-blue
